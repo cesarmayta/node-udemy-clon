@@ -14,7 +14,7 @@ app.set('port',config.port)
 app.get('/',(req,res)=>{
     res.json({
         "status":true,
-        "content":"api rest para clon de udemy"
+        "content":"api rest courses version 1.0.0"
     })
 })
 
